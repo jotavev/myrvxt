@@ -1,8 +1,8 @@
 ! -----------------------------------------------------------------------------
-*.font: xft:Hack:style=Regular:size=10
-*.boldFont: xft:Hack:style=Bold:size=10
-*.italicFont: xft:Hack:style=Italic:size=10
-*.boldItalicFont: xft:Hack:style=Bold Italic:size=10
+*.font: xft:Hack:style=Regular:size=12
+*.boldFont: xft:Hack:style=Bold:size=12
+*.italicFont: xft:Hack:style=Italic:size=12
+*.boldItalicFont: xft:Hack:style=Bold Italic:size=12
 ! -----------------------------------------------------------------------------
 
 ##############
@@ -74,3 +74,7 @@ URxvt.cursorBlink: true
 # sync copy
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+# deactivate the keycap picture insert
+URxvt.iso14755: false
+URxvt.iso14755_52: false
