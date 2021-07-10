@@ -1,8 +1,5 @@
 ! -----------------------------------------------------------------------------
-*.font: xft:Hack:style=Regular:size=12
-*.boldFont: xft:Hack:style=Bold:size=12
-*.italicFont: xft:Hack:style=Italic:size=12
-*.boldItalicFont: xft:Hack:style=Bold Italic:size=12
+*.font: xft:Hack Nerd Font:size=12
 ! -----------------------------------------------------------------------------
 
 ##############
